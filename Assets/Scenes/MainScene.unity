@@ -494,6 +494,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &795150879 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+  m_PrefabInstance: {fileID: 890414923630299683}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &828194435 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7422295573132767731, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
@@ -547,6 +558,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1377424762 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8174034065547818784, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+  m_PrefabInstance: {fileID: 890414923630299683}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1774838170 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3940597763744336045, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
@@ -594,6 +616,8 @@ MonoBehaviour:
   dialogueText: {fileID: 1774838170}
   playerHUD: {fileID: 828194435}
   enemyHUD: {fileID: 979565077}
+  attackButton: {fileID: 795150879}
+  healButton: {fileID: 1377424762}
   state: 0
 --- !u!4 &1822464659
 Transform:
@@ -649,6 +673,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 63895087315944947, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 883885435862763829, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 1434906280819899013, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -661,6 +693,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2384878433109651750, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 2518333748014446775, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -669,6 +705,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3940597763744336045, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 3964641378120518811, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 4724649096387878899, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -681,6 +725,30 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.799
+      objectReference: {fileID: 0}
+    - target: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.799
+      objectReference: {fileID: 0}
+    - target: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.799
+      objectReference: {fileID: 0}
+    - target: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1822464658}
+    - target: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnAttackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BattleSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6663239495518451067, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -688,6 +756,34 @@ PrefabInstance:
     - target: {fileID: 6663239495518451067, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061924921382324917, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 8174034065547818784, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174034065547818784, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174034065547818784, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174034065547818784, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1822464658}
+    - target: {fileID: 8174034065547818784, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHealButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174034065547818784, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BattleSystem, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8396508127329537734, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_Pivot.x
@@ -773,6 +869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 9108162185021083722, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

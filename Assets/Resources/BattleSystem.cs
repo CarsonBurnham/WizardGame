@@ -131,7 +131,6 @@ public class BattleSystem : MonoBehaviour
 	{
 		if (state != BattleState.PLAYERTURN)
 			return;
-
 		StartCoroutine(PlayerAttack());
 		Debug.Log("cringe");
 	}
