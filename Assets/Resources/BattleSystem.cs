@@ -61,7 +61,7 @@ public class BattleSystem : MonoBehaviour
 		enemyHUD.SetHP(enemyUnit.currentHP);
 		dialogueText.text = "The attack is successful!";
 
-		yield return new WaitForSeconds(2f);
+		
 
 		if(isDead)
 		{
@@ -70,6 +70,7 @@ public class BattleSystem : MonoBehaviour
 		} else
 		{
 			state = BattleState.ENEMYTURN;
+			yield return new WaitForSeconds(2f);
 			StartCoroutine(EnemyTurn());
 		}
 	}
@@ -120,10 +121,12 @@ public class BattleSystem : MonoBehaviour
 
 		playerHUD.SetHP(playerUnit.currentHP);
 		dialogueText.text = "Your strength returns.";
-
+		
+		state = BattleState.ENEMYTURN;
+		
 		yield return new WaitForSeconds(2f);
 
-		state = BattleState.ENEMYTURN;
+		
 		StartCoroutine(EnemyTurn());
 	}
 
