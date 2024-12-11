@@ -681,6 +681,10 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 957411432304690272, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1434906280819899013, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -748,6 +752,10 @@ PrefabInstance:
     - target: {fileID: 5947672534661532491, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: BattleSystem, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632408552504825907, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6663239495518451067, guid: 5b0e5621726391c49b0286df221c000b, type: 3}
       propertyPath: m_AnchorMax.x
