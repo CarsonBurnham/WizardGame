@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1312248334467701597}
   m_Layer: 0
   m_Name: Slime
-  m_TagString: Untagged
+  m_TagString: Slimy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,5 +128,5 @@ MonoBehaviour:
   unitName: Slime
   unitLevel: 1
   damage: 3
-  maxHP: 15
-  currentHP: 15
+  maxHP: 50
+  currentHP: 50
